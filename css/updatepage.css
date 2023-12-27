@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 60%;
+    border-radius: 10px;
+    padding: 30px;
+    background-color:rgb(70, 70, 75);
+}
+.inputUPdata{
+    display: flex;
+}
+.inputUPdata span{
+    width: 15%;
+    /* background-color:rgb(146, 237, 240); */
+    margin-right: 10px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    
+}
+input[type=file]{
+    margin-top: 20px;
+}
+input{
+    width: 70%;
+    height: 40px;
+    margin: 0 10px 10px;
+    border-radius: 10px;
+    border: none;
+    /* border: 1px solid rgb(178, 166, 166); */
+}
+#updata{
+    width: 15%;
+    /* background-color:rgb(146, 237, 240); */
+    margin:auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
